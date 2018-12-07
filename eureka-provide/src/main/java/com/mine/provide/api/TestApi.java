@@ -17,7 +17,7 @@ public class TestApi {
     @PostMapping("/getname")
     public  String getname(@RequestBody String id){
         try {
-            Thread.sleep(5000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
