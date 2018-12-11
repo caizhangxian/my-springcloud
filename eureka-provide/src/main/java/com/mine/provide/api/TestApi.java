@@ -21,6 +21,7 @@ public class TestApi {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("********************provide success********************");
         return "才彰显"+id;
     }
 }
